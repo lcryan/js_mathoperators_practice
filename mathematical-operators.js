@@ -58,3 +58,9 @@ console.log (combined);
 // Declareer vervolgens een variabele voor jouw locatie en plak jouw de woonplaats en provincie aan elkaar.
 // Zorg dat er een komma en spatie tussen zit zonder iets aan de originele variabelen te veranderen. // geeft bijv. Maastricht, Limburg wanneer gelogd
 // ==========================================
+
+const home = "Eindhoven";
+const region = "Noord-Brabant";
+
+const location = "Eindhoven" +"," +" " + "Noord-Brabant"
+console.log(location);
